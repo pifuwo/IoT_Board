@@ -34,7 +34,7 @@ static void _pin_as_analog(void)
 
 static void led_app(void)
 {
-    rt_pm_request(PM_RUN_MODE_NORMAL);
+    rt_pm_request(PM_SLEEP_MODE_NONE);
 
     rt_pin_mode(PIN_LED_R, PIN_MODE_OUTPUT);
     rt_pin_write(PIN_LED_R, 0);
@@ -42,7 +42,7 @@ static void led_app(void)
     rt_pin_write(PIN_LED_R, 1);
     _pin_as_analog();
 
-    rt_pm_release(PM_RUN_MODE_NORMAL);
+    rt_pm_release(PM_SLEEP_MODE_NONE);
 }
 
 static void wakeup_callback(void)
@@ -60,22 +60,20 @@ static void wakeup_init(void)
 
 static void pm_mode_init(void)
 {
-    rt_pm_request(PM_SLEEP_MODE_TIMER);
-    rt_pm_release(PM_SLEEP_MODE_SLEEP);
-    rt_pm_release(PM_RUN_MODE_NORMAL);
+    rt_pm_request(PM_SLEEP_MODE_DEEP);
 }
 
 int main(void)
 {
-    /* wakup event and callback init */
+    /* 唤醒回调函数初始化 */
     wakeup_init();
 
-    /* pm mode init */
+    /* 电源管理初始化 */
     pm_mode_init();
 
     while (1)
     {
-        /* wait for wakeup event */
+        /* 等待唤醒事件 */
         if (rt_event_recv(wakeup_event,
                           WAKEUP_EVENT_BUTTON,
                           RT_EVENT_FLAG_AND | RT_EVENT_FLAG_CLEAR,

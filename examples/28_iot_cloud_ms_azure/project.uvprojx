@@ -332,7 +332,7 @@
               <MiscControls />
               <Define>STM32L475xx, SET_TRUSTED_CERT_IN_SAMPLES, USE_HAL_DRIVER, RT_USING_ARM_LIBC</Define>
               <Undefine />
-              <IncludePath>.;applications;packages\azure-iot-sdk-v1.2.8\azure\c-utility\inc;packages\azure-iot-sdk-v1.2.8\azure;packages\azure-iot-sdk-v1.2.8\azure\c-utility\inc\azure_c_shared_utility;packages\azure-iot-sdk-v1.2.8\azure\iothub_client\inc;packages\azure-iot-sdk-v1.2.8\azure\serializer\inc;packages\azure-iot-sdk-v1.2.8\azure\umqtt\inc;packages\azure-iot-sdk-v1.2.8\azure\umqtt\inc\azure_umqtt_c;packages\azure-iot-sdk-v1.2.8\azure\deps\parson;packages\azure-iot-sdk-v1.2.8\azure\c-utility\pal\generic;packages\azure-iot-sdk-v1.2.8\azure\c-utility\pal;packages\azure-iot-sdk-v1.2.8\azure\c-utility\pal\inc;packages\azure-iot-sdk-v1.2.8\azure\c-utility\pal\lwip;packages\azure-iot-sdk-v1.2.8\azure\c-utility\src;packages\azure-iot-sdk-v1.2.8\azure\c-utility\adapters;packages\azure-iot-sdk-v1.2.8\azure\umqtt\src;packages\azure-iot-sdk-v1.2.8\azure\iothub_client\src;packages\azure-iot-sdk-v1.2.8\azure\serializer\src;packages\azure-iot-sdk-v1.2.8\azure\deps\parson;packages\azure-iot-sdk-v1.2.8\azure-port\pal\inc;packages\EasyFlash-v3.2.1\inc;ports\easyflash;packages\fal-v0.2.0\inc;ports\fal;packages\mbedtls-v2.6.0\mbedtls\include;packages\mbedtls-v2.6.0\mbedtls\include\mbedtls;packages\mbedtls-v2.6.0\ports\inc;packages\netutils-v1.0.0\ntp;packages\stm32_sdio-v1.0.0;ports\wifi;..\..\libraries\wifi;..\..\rt-thread\include;..\..\rt-thread\libcpu\arm\cortex-m4;..\..\rt-thread\libcpu\arm\common;..\..\rt-thread\components\dfs\include;..\..\rt-thread\components\dfs\filesystems\devfs;..\..\rt-thread\components\drivers\include;..\..\rt-thread\components\drivers\include;..\..\rt-thread\components\drivers\include;..\..\rt-thread\components\drivers\include;..\..\rt-thread\components\drivers\spi;..\..\rt-thread\components\drivers\include;..\..\rt-thread\components\drivers\spi\sfud\inc;..\..\rt-thread\components\drivers\include;..\..\rt-thread\components\drivers\wlan;..\..\rt-thread\components\finsh;..\..\rt-thread\components\libc\compilers\armlibc;..\..\rt-thread\components\libc\compilers\common;..\..\rt-thread\components\net\lwip-2.0.2\src;..\..\rt-thread\components\net\lwip-2.0.2\src\include;..\..\rt-thread\components\net\lwip-2.0.2\src\include\ipv4;..\..\rt-thread\components\net\lwip-2.0.2\src\arch\include;..\..\rt-thread\components\net\lwip-2.0.2\src\include\netif;..\..\rt-thread\components\net\sal_socket\include;..\..\rt-thread\components\net\sal_socket\include\socket;..\..\rt-thread\components\net\sal_socket\impl;..\..\rt-thread\components\net\sal_socket\include\dfs_net;..\..\rt-thread\components\net\sal_socket\include\dfs_net\sys_select;..\..\rt-thread\components\net\sal_socket\include\socket\sys_socket;..\..\drivers;..\..\libraries\CMSIS\Device\ST\STM32L4xx\Include;..\..\libraries\CMSIS\Include;..\..\libraries\STM32L4xx_HAL_Driver\inc;..\..\libraries\rt_ota\inc</IncludePath>
+              <IncludePath>.;..\..\rt-thread\include;.;applications;packages\azure-iot-sdk-v1.2.9\azure\c-utility\inc;packages\azure-iot-sdk-v1.2.9\azure;packages\azure-iot-sdk-v1.2.9\azure\c-utility\inc\azure_c_shared_utility;packages\azure-iot-sdk-v1.2.9\azure\iothub_client\inc;packages\azure-iot-sdk-v1.2.9\azure\serializer\inc;packages\azure-iot-sdk-v1.2.9\azure\umqtt\inc;packages\azure-iot-sdk-v1.2.9\azure\umqtt\inc\azure_umqtt_c;packages\azure-iot-sdk-v1.2.9\azure\deps\parson;packages\azure-iot-sdk-v1.2.9\azure\c-utility\pal\generic;packages\azure-iot-sdk-v1.2.9\azure\c-utility\pal;packages\azure-iot-sdk-v1.2.9\azure\c-utility\pal\inc;packages\azure-iot-sdk-v1.2.9\azure\c-utility\pal\lwip;packages\azure-iot-sdk-v1.2.9\azure\c-utility\src;packages\azure-iot-sdk-v1.2.9\azure\c-utility\adapters;packages\azure-iot-sdk-v1.2.9\azure\umqtt\src;packages\azure-iot-sdk-v1.2.9\azure\iothub_client\src;packages\azure-iot-sdk-v1.2.9\azure\serializer\src;packages\azure-iot-sdk-v1.2.9\azure\deps\parson;packages\azure-iot-sdk-v1.2.9\azure-port\pal\inc;packages\EasyFlash-v3.2.1\inc;ports\easyflash;packages\fal-v0.2.0\inc;ports\fal;packages\mbedtls-v2.6.0\mbedtls\include;packages\mbedtls-v2.6.0\mbedtls\include\mbedtls;packages\mbedtls-v2.6.0\ports\inc;packages\netutils-v1.0.0\ntp;packages\stm32_sdio-v1.0.2;ports\wifi;..\..\libraries\wifi;..\..\rt-thread\libcpu\arm\common;..\..\rt-thread\libcpu\arm\cortex-m4;..\..\rt-thread\components\dfs\include;..\..\rt-thread\components\dfs\filesystems\devfs;..\..\rt-thread\components\drivers\include;..\..\rt-thread\components\drivers\include;..\..\rt-thread\components\drivers\include;..\..\rt-thread\components\drivers\include;..\..\rt-thread\components\drivers\spi;..\..\rt-thread\components\drivers\include;..\..\rt-thread\components\drivers\spi\sfud\inc;..\..\rt-thread\components\drivers\include;..\..\rt-thread\components\drivers\wlan;..\..\rt-thread\components\finsh;..\..\rt-thread\components\libc\compilers\armlibc;..\..\rt-thread\components\libc\compilers\common;..\..\rt-thread\components\net\lwip-2.0.2\src;..\..\rt-thread\components\net\lwip-2.0.2\src\include;..\..\rt-thread\components\net\lwip-2.0.2\src\include\ipv4;..\..\rt-thread\components\net\lwip-2.0.2\src\arch\include;..\..\rt-thread\components\net\lwip-2.0.2\src\include\netif;..\..\rt-thread\components\net\netdev\include;..\..\rt-thread\components\net\sal_socket\include;..\..\rt-thread\components\net\sal_socket\include\socket;..\..\rt-thread\components\net\sal_socket\impl;..\..\rt-thread\components\net\sal_socket\include\dfs_net;..\..\rt-thread\components\net\sal_socket\include\dfs_net\sys_select;..\..\rt-thread\components\net\sal_socket\include\socket\sys_socket;..\..\libraries\CMSIS\Device\ST\STM32L4xx\Include;..\..\libraries\CMSIS\Include;..\..\libraries\STM32L4xx_HAL_Driver\inc;..\..\libraries\rt_ota\inc;..\..\drivers</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -366,13 +366,121 @@
             <ScatterFile>..\..\drivers\linker_scripts\stm32l475ve.sct</ScatterFile>
             <IncludeLibs />
             <IncludeLibsPath />
-            <Misc> --keep *.o(.rti_fn.*)   --keep *.o(FSymTab)</Misc>
+            <Misc />
             <LinkerInputFile />
             <DisabledWarnings />
           </LDads>
         </TargetArmAds>
       </TargetOption>
       <Groups>
+        <Group>
+          <GroupName>Kernel</GroupName>
+          <Files>
+            <File>
+              <FileName>clock.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\rt-thread\src\clock.c</FilePath>
+            </File>
+          </Files>
+          <Files>
+            <File>
+              <FileName>components.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\rt-thread\src\components.c</FilePath>
+            </File>
+          </Files>
+          <Files>
+            <File>
+              <FileName>cpu.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\rt-thread\src\cpu.c</FilePath>
+            </File>
+          </Files>
+          <Files>
+            <File>
+              <FileName>device.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\rt-thread\src\device.c</FilePath>
+            </File>
+          </Files>
+          <Files>
+            <File>
+              <FileName>idle.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\rt-thread\src\idle.c</FilePath>
+            </File>
+          </Files>
+          <Files>
+            <File>
+              <FileName>ipc.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\rt-thread\src\ipc.c</FilePath>
+            </File>
+          </Files>
+          <Files>
+            <File>
+              <FileName>irq.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\rt-thread\src\irq.c</FilePath>
+            </File>
+          </Files>
+          <Files>
+            <File>
+              <FileName>kservice.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\rt-thread\src\kservice.c</FilePath>
+            </File>
+          </Files>
+          <Files>
+            <File>
+              <FileName>memheap.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\rt-thread\src\memheap.c</FilePath>
+            </File>
+          </Files>
+          <Files>
+            <File>
+              <FileName>mempool.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\rt-thread\src\mempool.c</FilePath>
+            </File>
+          </Files>
+          <Files>
+            <File>
+              <FileName>object.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\rt-thread\src\object.c</FilePath>
+            </File>
+          </Files>
+          <Files>
+            <File>
+              <FileName>scheduler.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\rt-thread\src\scheduler.c</FilePath>
+            </File>
+          </Files>
+          <Files>
+            <File>
+              <FileName>signal.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\rt-thread\src\signal.c</FilePath>
+            </File>
+          </Files>
+          <Files>
+            <File>
+              <FileName>thread.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\rt-thread\src\thread.c</FilePath>
+            </File>
+          </Files>
+          <Files>
+            <File>
+              <FileName>timer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\rt-thread\src\timer.c</FilePath>
+            </File>
+          </Files>
+        </Group>
         <Group>
           <GroupName>Applications</GroupName>
           <Files>
@@ -389,511 +497,511 @@
             <File>
               <FileName>xlogging.c</FileName>
               <FileType>1</FileType>
-              <FilePath>packages\azure-iot-sdk-v1.2.8\azure\c-utility\src\xlogging.c</FilePath>
+              <FilePath>packages\azure-iot-sdk-v1.2.9\azure\c-utility\src\xlogging.c</FilePath>
             </File>
           </Files>
           <Files>
             <File>
               <FileName>singlylinkedlist.c</FileName>
               <FileType>1</FileType>
-              <FilePath>packages\azure-iot-sdk-v1.2.8\azure\c-utility\src\singlylinkedlist.c</FilePath>
+              <FilePath>packages\azure-iot-sdk-v1.2.9\azure\c-utility\src\singlylinkedlist.c</FilePath>
             </File>
           </Files>
           <Files>
             <File>
               <FileName>buffer.c</FileName>
               <FileType>1</FileType>
-              <FilePath>packages\azure-iot-sdk-v1.2.8\azure\c-utility\src\buffer.c</FilePath>
+              <FilePath>packages\azure-iot-sdk-v1.2.9\azure\c-utility\src\buffer.c</FilePath>
             </File>
           </Files>
           <Files>
             <File>
               <FileName>consolelogger.c</FileName>
               <FileType>1</FileType>
-              <FilePath>packages\azure-iot-sdk-v1.2.8\azure\c-utility\src\consolelogger.c</FilePath>
+              <FilePath>packages\azure-iot-sdk-v1.2.9\azure\c-utility\src\consolelogger.c</FilePath>
             </File>
           </Files>
           <Files>
             <File>
               <FileName>constbuffer.c</FileName>
               <FileType>1</FileType>
-              <FilePath>packages\azure-iot-sdk-v1.2.8\azure\c-utility\src\constbuffer.c</FilePath>
+              <FilePath>packages\azure-iot-sdk-v1.2.9\azure\c-utility\src\constbuffer.c</FilePath>
             </File>
           </Files>
           <Files>
             <File>
               <FileName>constmap.c</FileName>
               <FileType>1</FileType>
-              <FilePath>packages\azure-iot-sdk-v1.2.8\azure\c-utility\src\constmap.c</FilePath>
+              <FilePath>packages\azure-iot-sdk-v1.2.9\azure\c-utility\src\constmap.c</FilePath>
             </File>
           </Files>
           <Files>
             <File>
               <FileName>c_utility_crt_abstractions.c</FileName>
               <FileType>1</FileType>
-              <FilePath>packages\azure-iot-sdk-v1.2.8\azure-port\lib\c_utility_crt_abstractions.c</FilePath>
+              <FilePath>packages\azure-iot-sdk-v1.2.9\azure-port\lib\c_utility_crt_abstractions.c</FilePath>
             </File>
           </Files>
           <Files>
             <File>
               <FileName>doublylinkedlist.c</FileName>
               <FileType>1</FileType>
-              <FilePath>packages\azure-iot-sdk-v1.2.8\azure\c-utility\src\doublylinkedlist.c</FilePath>
+              <FilePath>packages\azure-iot-sdk-v1.2.9\azure\c-utility\src\doublylinkedlist.c</FilePath>
             </File>
           </Files>
           <Files>
             <File>
               <FileName>gballoc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>packages\azure-iot-sdk-v1.2.8\azure\c-utility\src\gballoc.c</FilePath>
+              <FilePath>packages\azure-iot-sdk-v1.2.9\azure\c-utility\src\gballoc.c</FilePath>
             </File>
           </Files>
           <Files>
             <File>
               <FileName>gb_stdio.c</FileName>
               <FileType>1</FileType>
-              <FilePath>packages\azure-iot-sdk-v1.2.8\azure\c-utility\src\gb_stdio.c</FilePath>
+              <FilePath>packages\azure-iot-sdk-v1.2.9\azure\c-utility\src\gb_stdio.c</FilePath>
             </File>
           </Files>
           <Files>
             <File>
               <FileName>gb_time.c</FileName>
               <FileType>1</FileType>
-              <FilePath>packages\azure-iot-sdk-v1.2.8\azure\c-utility\src\gb_time.c</FilePath>
+              <FilePath>packages\azure-iot-sdk-v1.2.9\azure\c-utility\src\gb_time.c</FilePath>
             </File>
           </Files>
           <Files>
             <File>
               <FileName>hmac.c</FileName>
               <FileType>1</FileType>
-              <FilePath>packages\azure-iot-sdk-v1.2.8\azure\c-utility\src\hmac.c</FilePath>
+              <FilePath>packages\azure-iot-sdk-v1.2.9\azure\c-utility\src\hmac.c</FilePath>
             </File>
           </Files>
           <Files>
             <File>
               <FileName>hmacsha256.c</FileName>
               <FileType>1</FileType>
-              <FilePath>packages\azure-iot-sdk-v1.2.8\azure\c-utility\src\hmacsha256.c</FilePath>
+              <FilePath>packages\azure-iot-sdk-v1.2.9\azure\c-utility\src\hmacsha256.c</FilePath>
             </File>
           </Files>
           <Files>
             <File>
               <FileName>httpapiex.c</FileName>
               <FileType>1</FileType>
-              <FilePath>packages\azure-iot-sdk-v1.2.8\azure\c-utility\src\httpapiex.c</FilePath>
+              <FilePath>packages\azure-iot-sdk-v1.2.9\azure\c-utility\src\httpapiex.c</FilePath>
             </File>
           </Files>
           <Files>
             <File>
               <FileName>httpapiexsas.c</FileName>
               <FileType>1</FileType>
-              <FilePath>packages\azure-iot-sdk-v1.2.8\azure\c-utility\src\httpapiexsas.c</FilePath>
+              <FilePath>packages\azure-iot-sdk-v1.2.9\azure\c-utility\src\httpapiexsas.c</FilePath>
             </File>
           </Files>
           <Files>
             <File>
               <FileName>httpheaders.c</FileName>
               <FileType>1</FileType>
-              <FilePath>packages\azure-iot-sdk-v1.2.8\azure\c-utility\src\httpheaders.c</FilePath>
+              <FilePath>packages\azure-iot-sdk-v1.2.9\azure\c-utility\src\httpheaders.c</FilePath>
             </File>
           </Files>
           <Files>
             <File>
               <FileName>map.c</FileName>
               <FileType>1</FileType>
-              <FilePath>packages\azure-iot-sdk-v1.2.8\azure\c-utility\src\map.c</FilePath>
+              <FilePath>packages\azure-iot-sdk-v1.2.9\azure\c-utility\src\map.c</FilePath>
             </File>
           </Files>
           <Files>
             <File>
               <FileName>optionhandler.c</FileName>
               <FileType>1</FileType>
-              <FilePath>packages\azure-iot-sdk-v1.2.8\azure\c-utility\src\optionhandler.c</FilePath>
+              <FilePath>packages\azure-iot-sdk-v1.2.9\azure\c-utility\src\optionhandler.c</FilePath>
             </File>
           </Files>
           <Files>
             <File>
               <FileName>sastoken.c</FileName>
               <FileType>1</FileType>
-              <FilePath>packages\azure-iot-sdk-v1.2.8\azure\c-utility\src\sastoken.c</FilePath>
+              <FilePath>packages\azure-iot-sdk-v1.2.9\azure\c-utility\src\sastoken.c</FilePath>
             </File>
           </Files>
           <Files>
             <File>
               <FileName>c_utility_sha1.c</FileName>
               <FileType>1</FileType>
-              <FilePath>packages\azure-iot-sdk-v1.2.8\azure-port\lib\c_utility_sha1.c</FilePath>
+              <FilePath>packages\azure-iot-sdk-v1.2.9\azure-port\lib\c_utility_sha1.c</FilePath>
             </File>
           </Files>
           <Files>
             <File>
               <FileName>sha224.c</FileName>
               <FileType>1</FileType>
-              <FilePath>packages\azure-iot-sdk-v1.2.8\azure\c-utility\src\sha224.c</FilePath>
+              <FilePath>packages\azure-iot-sdk-v1.2.9\azure\c-utility\src\sha224.c</FilePath>
             </File>
           </Files>
           <Files>
             <File>
               <FileName>sha384-512.c</FileName>
               <FileType>1</FileType>
-              <FilePath>packages\azure-iot-sdk-v1.2.8\azure\c-utility\src\sha384-512.c</FilePath>
+              <FilePath>packages\azure-iot-sdk-v1.2.9\azure\c-utility\src\sha384-512.c</FilePath>
             </File>
           </Files>
           <Files>
             <File>
               <FileName>string_tokenizer.c</FileName>
               <FileType>1</FileType>
-              <FilePath>packages\azure-iot-sdk-v1.2.8\azure\c-utility\src\string_tokenizer.c</FilePath>
+              <FilePath>packages\azure-iot-sdk-v1.2.9\azure\c-utility\src\string_tokenizer.c</FilePath>
             </File>
           </Files>
           <Files>
             <File>
               <FileName>urlencode.c</FileName>
               <FileType>1</FileType>
-              <FilePath>packages\azure-iot-sdk-v1.2.8\azure\c-utility\src\urlencode.c</FilePath>
+              <FilePath>packages\azure-iot-sdk-v1.2.9\azure\c-utility\src\urlencode.c</FilePath>
             </File>
           </Files>
           <Files>
             <File>
               <FileName>usha.c</FileName>
               <FileType>1</FileType>
-              <FilePath>packages\azure-iot-sdk-v1.2.8\azure\c-utility\src\usha.c</FilePath>
+              <FilePath>packages\azure-iot-sdk-v1.2.9\azure\c-utility\src\usha.c</FilePath>
             </File>
           </Files>
           <Files>
             <File>
               <FileName>vector.c</FileName>
               <FileType>1</FileType>
-              <FilePath>packages\azure-iot-sdk-v1.2.8\azure\c-utility\src\vector.c</FilePath>
+              <FilePath>packages\azure-iot-sdk-v1.2.9\azure\c-utility\src\vector.c</FilePath>
             </File>
           </Files>
           <Files>
             <File>
               <FileName>xio.c</FileName>
               <FileType>1</FileType>
-              <FilePath>packages\azure-iot-sdk-v1.2.8\azure\c-utility\src\xio.c</FilePath>
+              <FilePath>packages\azure-iot-sdk-v1.2.9\azure\c-utility\src\xio.c</FilePath>
             </File>
           </Files>
           <Files>
             <File>
               <FileName>strings.c</FileName>
               <FileType>1</FileType>
-              <FilePath>packages\azure-iot-sdk-v1.2.8\azure\c-utility\src\strings.c</FilePath>
+              <FilePath>packages\azure-iot-sdk-v1.2.9\azure\c-utility\src\strings.c</FilePath>
             </File>
           </Files>
           <Files>
             <File>
               <FileName>c_utility_base64.c</FileName>
               <FileType>1</FileType>
-              <FilePath>packages\azure-iot-sdk-v1.2.8\azure-port\lib\c_utility_base64.c</FilePath>
+              <FilePath>packages\azure-iot-sdk-v1.2.9\azure-port\lib\c_utility_base64.c</FilePath>
             </File>
           </Files>
           <Files>
             <File>
               <FileName>iothub_client_ll.c</FileName>
               <FileType>1</FileType>
-              <FilePath>packages\azure-iot-sdk-v1.2.8\azure\iothub_client\src\iothub_client_ll.c</FilePath>
+              <FilePath>packages\azure-iot-sdk-v1.2.9\azure\iothub_client\src\iothub_client_ll.c</FilePath>
             </File>
           </Files>
           <Files>
             <File>
               <FileName>iothub_device_client_ll.c</FileName>
               <FileType>1</FileType>
-              <FilePath>packages\azure-iot-sdk-v1.2.8\azure\iothub_client\src\iothub_device_client_ll.c</FilePath>
+              <FilePath>packages\azure-iot-sdk-v1.2.9\azure\iothub_client\src\iothub_device_client_ll.c</FilePath>
             </File>
           </Files>
           <Files>
             <File>
               <FileName>iothub_client_core_ll.c</FileName>
               <FileType>1</FileType>
-              <FilePath>packages\azure-iot-sdk-v1.2.8\azure\iothub_client\src\iothub_client_core_ll.c</FilePath>
+              <FilePath>packages\azure-iot-sdk-v1.2.9\azure\iothub_client\src\iothub_client_core_ll.c</FilePath>
             </File>
           </Files>
           <Files>
             <File>
               <FileName>iothub_client_authorization.c</FileName>
               <FileType>1</FileType>
-              <FilePath>packages\azure-iot-sdk-v1.2.8\azure\iothub_client\src\iothub_client_authorization.c</FilePath>
+              <FilePath>packages\azure-iot-sdk-v1.2.9\azure\iothub_client\src\iothub_client_authorization.c</FilePath>
             </File>
           </Files>
           <Files>
             <File>
               <FileName>iothub_message.c</FileName>
               <FileType>1</FileType>
-              <FilePath>packages\azure-iot-sdk-v1.2.8\azure\iothub_client\src\iothub_message.c</FilePath>
+              <FilePath>packages\azure-iot-sdk-v1.2.9\azure\iothub_client\src\iothub_message.c</FilePath>
             </File>
           </Files>
           <Files>
             <File>
               <FileName>iothub_client_diagnostic.c</FileName>
               <FileType>1</FileType>
-              <FilePath>packages\azure-iot-sdk-v1.2.8\azure\iothub_client\src\iothub_client_diagnostic.c</FilePath>
+              <FilePath>packages\azure-iot-sdk-v1.2.9\azure\iothub_client\src\iothub_client_diagnostic.c</FilePath>
             </File>
           </Files>
           <Files>
             <File>
               <FileName>iothub_client_ll_uploadtoblob.c</FileName>
               <FileType>1</FileType>
-              <FilePath>packages\azure-iot-sdk-v1.2.8\azure\iothub_client\src\iothub_client_ll_uploadtoblob.c</FilePath>
+              <FilePath>packages\azure-iot-sdk-v1.2.9\azure\iothub_client\src\iothub_client_ll_uploadtoblob.c</FilePath>
             </File>
           </Files>
           <Files>
             <File>
               <FileName>blob.c</FileName>
               <FileType>1</FileType>
-              <FilePath>packages\azure-iot-sdk-v1.2.8\azure\iothub_client\src\blob.c</FilePath>
+              <FilePath>packages\azure-iot-sdk-v1.2.9\azure\iothub_client\src\blob.c</FilePath>
             </File>
           </Files>
           <Files>
             <File>
               <FileName>iothub.c</FileName>
               <FileType>1</FileType>
-              <FilePath>packages\azure-iot-sdk-v1.2.8\azure\iothub_client\src\iothub.c</FilePath>
+              <FilePath>packages\azure-iot-sdk-v1.2.9\azure\iothub_client\src\iothub.c</FilePath>
             </File>
           </Files>
           <Files>
             <File>
               <FileName>iothubtransportmqtt.c</FileName>
               <FileType>1</FileType>
-              <FilePath>packages\azure-iot-sdk-v1.2.8\azure\iothub_client\src\iothubtransportmqtt.c</FilePath>
+              <FilePath>packages\azure-iot-sdk-v1.2.9\azure\iothub_client\src\iothubtransportmqtt.c</FilePath>
             </File>
           </Files>
           <Files>
             <File>
               <FileName>iothubtransport_mqtt_common.c</FileName>
               <FileType>1</FileType>
-              <FilePath>packages\azure-iot-sdk-v1.2.8\azure\iothub_client\src\iothubtransport_mqtt_common.c</FilePath>
+              <FilePath>packages\azure-iot-sdk-v1.2.9\azure\iothub_client\src\iothubtransport_mqtt_common.c</FilePath>
             </File>
           </Files>
           <Files>
             <File>
               <FileName>iothub_client_retry_control.c</FileName>
               <FileType>1</FileType>
-              <FilePath>packages\azure-iot-sdk-v1.2.8\azure\iothub_client\src\iothub_client_retry_control.c</FilePath>
+              <FilePath>packages\azure-iot-sdk-v1.2.9\azure\iothub_client\src\iothub_client_retry_control.c</FilePath>
             </File>
           </Files>
           <Files>
             <File>
               <FileName>iothubtransporthttp.c</FileName>
               <FileType>1</FileType>
-              <FilePath>packages\azure-iot-sdk-v1.2.8\azure\iothub_client\src\iothubtransporthttp.c</FilePath>
+              <FilePath>packages\azure-iot-sdk-v1.2.9\azure\iothub_client\src\iothubtransporthttp.c</FilePath>
             </File>
           </Files>
           <Files>
             <File>
               <FileName>mqtt_client.c</FileName>
               <FileType>1</FileType>
-              <FilePath>packages\azure-iot-sdk-v1.2.8\azure\umqtt\src\mqtt_client.c</FilePath>
+              <FilePath>packages\azure-iot-sdk-v1.2.9\azure\umqtt\src\mqtt_client.c</FilePath>
             </File>
           </Files>
           <Files>
             <File>
               <FileName>mqtt_codec.c</FileName>
               <FileType>1</FileType>
-              <FilePath>packages\azure-iot-sdk-v1.2.8\azure\umqtt\src\mqtt_codec.c</FilePath>
+              <FilePath>packages\azure-iot-sdk-v1.2.9\azure\umqtt\src\mqtt_codec.c</FilePath>
             </File>
           </Files>
           <Files>
             <File>
               <FileName>mqtt_message.c</FileName>
               <FileType>1</FileType>
-              <FilePath>packages\azure-iot-sdk-v1.2.8\azure\umqtt\src\mqtt_message.c</FilePath>
+              <FilePath>packages\azure-iot-sdk-v1.2.9\azure\umqtt\src\mqtt_message.c</FilePath>
             </File>
           </Files>
           <Files>
             <File>
               <FileName>parson.c</FileName>
               <FileType>1</FileType>
-              <FilePath>packages\azure-iot-sdk-v1.2.8\azure\deps\parson\parson.c</FilePath>
+              <FilePath>packages\azure-iot-sdk-v1.2.9\azure\deps\parson\parson.c</FilePath>
             </File>
           </Files>
           <Files>
             <File>
               <FileName>codefirst.c</FileName>
               <FileType>1</FileType>
-              <FilePath>packages\azure-iot-sdk-v1.2.8\azure\serializer\src\codefirst.c</FilePath>
+              <FilePath>packages\azure-iot-sdk-v1.2.9\azure\serializer\src\codefirst.c</FilePath>
             </File>
           </Files>
           <Files>
             <File>
               <FileName>agenttypesystem.c</FileName>
               <FileType>1</FileType>
-              <FilePath>packages\azure-iot-sdk-v1.2.8\azure\serializer\src\agenttypesystem.c</FilePath>
+              <FilePath>packages\azure-iot-sdk-v1.2.9\azure\serializer\src\agenttypesystem.c</FilePath>
             </File>
           </Files>
           <Files>
             <File>
               <FileName>commanddecoder.c</FileName>
               <FileType>1</FileType>
-              <FilePath>packages\azure-iot-sdk-v1.2.8\azure\serializer\src\commanddecoder.c</FilePath>
+              <FilePath>packages\azure-iot-sdk-v1.2.9\azure\serializer\src\commanddecoder.c</FilePath>
             </File>
           </Files>
           <Files>
             <File>
               <FileName>datamarshaller.c</FileName>
               <FileType>1</FileType>
-              <FilePath>packages\azure-iot-sdk-v1.2.8\azure\serializer\src\datamarshaller.c</FilePath>
+              <FilePath>packages\azure-iot-sdk-v1.2.9\azure\serializer\src\datamarshaller.c</FilePath>
             </File>
           </Files>
           <Files>
             <File>
               <FileName>datapublisher.c</FileName>
               <FileType>1</FileType>
-              <FilePath>packages\azure-iot-sdk-v1.2.8\azure\serializer\src\datapublisher.c</FilePath>
+              <FilePath>packages\azure-iot-sdk-v1.2.9\azure\serializer\src\datapublisher.c</FilePath>
             </File>
           </Files>
           <Files>
             <File>
               <FileName>dataserializer.c</FileName>
               <FileType>1</FileType>
-              <FilePath>packages\azure-iot-sdk-v1.2.8\azure\serializer\src\dataserializer.c</FilePath>
+              <FilePath>packages\azure-iot-sdk-v1.2.9\azure\serializer\src\dataserializer.c</FilePath>
             </File>
           </Files>
           <Files>
             <File>
               <FileName>iotdevice.c</FileName>
               <FileType>1</FileType>
-              <FilePath>packages\azure-iot-sdk-v1.2.8\azure\serializer\src\iotdevice.c</FilePath>
+              <FilePath>packages\azure-iot-sdk-v1.2.9\azure\serializer\src\iotdevice.c</FilePath>
             </File>
           </Files>
           <Files>
             <File>
               <FileName>jsondecoder.c</FileName>
               <FileType>1</FileType>
-              <FilePath>packages\azure-iot-sdk-v1.2.8\azure\serializer\src\jsondecoder.c</FilePath>
+              <FilePath>packages\azure-iot-sdk-v1.2.9\azure\serializer\src\jsondecoder.c</FilePath>
             </File>
           </Files>
           <Files>
             <File>
               <FileName>jsonencoder.c</FileName>
               <FileType>1</FileType>
-              <FilePath>packages\azure-iot-sdk-v1.2.8\azure\serializer\src\jsonencoder.c</FilePath>
+              <FilePath>packages\azure-iot-sdk-v1.2.9\azure\serializer\src\jsonencoder.c</FilePath>
             </File>
           </Files>
           <Files>
             <File>
               <FileName>methodreturn.c</FileName>
               <FileType>1</FileType>
-              <FilePath>packages\azure-iot-sdk-v1.2.8\azure\serializer\src\methodreturn.c</FilePath>
+              <FilePath>packages\azure-iot-sdk-v1.2.9\azure\serializer\src\methodreturn.c</FilePath>
             </File>
           </Files>
           <Files>
             <File>
               <FileName>multitree.c</FileName>
               <FileType>1</FileType>
-              <FilePath>packages\azure-iot-sdk-v1.2.8\azure\serializer\src\multitree.c</FilePath>
+              <FilePath>packages\azure-iot-sdk-v1.2.9\azure\serializer\src\multitree.c</FilePath>
             </File>
           </Files>
           <Files>
             <File>
               <FileName>schema.c</FileName>
               <FileType>1</FileType>
-              <FilePath>packages\azure-iot-sdk-v1.2.8\azure\serializer\src\schema.c</FilePath>
+              <FilePath>packages\azure-iot-sdk-v1.2.9\azure\serializer\src\schema.c</FilePath>
             </File>
           </Files>
           <Files>
             <File>
               <FileName>schemalib.c</FileName>
               <FileType>1</FileType>
-              <FilePath>packages\azure-iot-sdk-v1.2.8\azure\serializer\src\schemalib.c</FilePath>
+              <FilePath>packages\azure-iot-sdk-v1.2.9\azure\serializer\src\schemalib.c</FilePath>
             </File>
           </Files>
           <Files>
             <File>
               <FileName>schemaserializer.c</FileName>
               <FileType>1</FileType>
-              <FilePath>packages\azure-iot-sdk-v1.2.8\azure\serializer\src\schemaserializer.c</FilePath>
+              <FilePath>packages\azure-iot-sdk-v1.2.9\azure\serializer\src\schemaserializer.c</FilePath>
             </File>
           </Files>
           <Files>
             <File>
               <FileName>lock.c</FileName>
               <FileType>1</FileType>
-              <FilePath>packages\azure-iot-sdk-v1.2.8\azure-port\rt-thread\lock.c</FilePath>
+              <FilePath>packages\azure-iot-sdk-v1.2.9\azure-port\rt-thread\lock.c</FilePath>
             </File>
           </Files>
           <Files>
             <File>
               <FileName>threadapi.c</FileName>
               <FileType>1</FileType>
-              <FilePath>packages\azure-iot-sdk-v1.2.8\azure-port\rt-thread\threadapi.c</FilePath>
+              <FilePath>packages\azure-iot-sdk-v1.2.9\azure-port\rt-thread\threadapi.c</FilePath>
             </File>
           </Files>
           <Files>
             <File>
               <FileName>tickcounter.c</FileName>
               <FileType>1</FileType>
-              <FilePath>packages\azure-iot-sdk-v1.2.8\azure-port\rt-thread\tickcounter.c</FilePath>
+              <FilePath>packages\azure-iot-sdk-v1.2.9\azure-port\rt-thread\tickcounter.c</FilePath>
             </File>
           </Files>
           <Files>
             <File>
               <FileName>socket_async.c</FileName>
               <FileType>1</FileType>
-              <FilePath>packages\azure-iot-sdk-v1.2.8\azure\c-utility\pal\socket_async.c</FilePath>
+              <FilePath>packages\azure-iot-sdk-v1.2.9\azure\c-utility\pal\socket_async.c</FilePath>
             </File>
           </Files>
           <Files>
             <File>
               <FileName>dns_async.c</FileName>
               <FileType>1</FileType>
-              <FilePath>packages\azure-iot-sdk-v1.2.8\azure\c-utility\pal\dns_async.c</FilePath>
+              <FilePath>packages\azure-iot-sdk-v1.2.9\azure\c-utility\pal\dns_async.c</FilePath>
             </File>
           </Files>
           <Files>
             <File>
               <FileName>agenttime.c</FileName>
               <FileType>1</FileType>
-              <FilePath>packages\azure-iot-sdk-v1.2.8\azure-port\pal\src\agenttime.c</FilePath>
+              <FilePath>packages\azure-iot-sdk-v1.2.9\azure-port\pal\src\agenttime.c</FilePath>
             </File>
           </Files>
           <Files>
             <File>
               <FileName>azure_platform.c</FileName>
               <FileType>1</FileType>
-              <FilePath>packages\azure-iot-sdk-v1.2.8\azure-port\pal\src\azure_platform.c</FilePath>
+              <FilePath>packages\azure-iot-sdk-v1.2.9\azure-port\pal\src\azure_platform.c</FilePath>
             </File>
           </Files>
           <Files>
             <File>
               <FileName>tlsio_mbedtls.c</FileName>
               <FileType>1</FileType>
-              <FilePath>packages\azure-iot-sdk-v1.2.8\azure-port\pal\src\tlsio_mbedtls.c</FilePath>
+              <FilePath>packages\azure-iot-sdk-v1.2.9\azure-port\pal\src\tlsio_mbedtls.c</FilePath>
             </File>
           </Files>
           <Files>
             <File>
               <FileName>socketio_berkeley.c</FileName>
               <FileType>1</FileType>
-              <FilePath>packages\azure-iot-sdk-v1.2.8\azure-port\pal\src\socketio_berkeley.c</FilePath>
+              <FilePath>packages\azure-iot-sdk-v1.2.9\azure-port\pal\src\socketio_berkeley.c</FilePath>
             </File>
           </Files>
           <Files>
             <File>
               <FileName>httpapi_compact.c</FileName>
               <FileType>1</FileType>
-              <FilePath>packages\azure-iot-sdk-v1.2.8\azure\c-utility\adapters\httpapi_compact.c</FilePath>
+              <FilePath>packages\azure-iot-sdk-v1.2.9\azure\c-utility\adapters\httpapi_compact.c</FilePath>
             </File>
           </Files>
           <Files>
             <File>
               <FileName>iothub_ll_telemetry_sample.c</FileName>
               <FileType>1</FileType>
-              <FilePath>packages\azure-iot-sdk-v1.2.8\samples\iothub_ll_telemetry_sample.c</FilePath>
+              <FilePath>packages\azure-iot-sdk-v1.2.9\samples\iothub_ll_telemetry_sample.c</FilePath>
             </File>
           </Files>
           <Files>
             <File>
               <FileName>iothub_ll_c2d_sample.c</FileName>
               <FileType>1</FileType>
-              <FilePath>packages\azure-iot-sdk-v1.2.8\samples\iothub_ll_c2d_sample.c</FilePath>
+              <FilePath>packages\azure-iot-sdk-v1.2.9\samples\iothub_ll_c2d_sample.c</FilePath>
             </File>
           </Files>
           <Files>
             <File>
               <FileName>azure_certs.c</FileName>
               <FileType>1</FileType>
-              <FilePath>packages\azure-iot-sdk-v1.2.8\azure-port\lib\azure_certs.c</FilePath>
+              <FilePath>packages\azure-iot-sdk-v1.2.9\azure-port\lib\azure_certs.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -1557,7 +1665,7 @@
             <File>
               <FileName>stm32_sdio.c</FileName>
               <FileType>1</FileType>
-              <FilePath>packages\stm32_sdio-v1.0.0\stm32_sdio.c</FilePath>
+              <FilePath>packages\stm32_sdio-v1.0.2\stm32_sdio.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -1570,138 +1678,18 @@
               <FilePath>ports\wifi\wifi_config.c</FilePath>
             </File>
           </Files>
+        </Group>
+        <Group>wifi<GroupName>wifi</GroupName>
           <Files>
             <File>
-              <FileName>libwifi_6181_0.2.4_armcm4_keil.lib</FileName>
+              <FileName>libwifi_6181_0.2.5_armcm4_keil.lib</FileName>
               <FileType>4</FileType>
-              <FilePath>..\..\libraries\wifi\libwifi_6181_0.2.4_armcm4_keil.lib</FilePath>
+              <FilePath>..\..\libraries\wifi\libwifi_6181_0.2.5_armcm4_keil.lib</FilePath>
             </File>
           </Files>
         </Group>
         <Group>
-          <GroupName>Kernel</GroupName>
-          <Files>
-            <File>
-              <FileName>clock.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\rt-thread\src\clock.c</FilePath>
-            </File>
-          </Files>
-          <Files>
-            <File>
-              <FileName>components.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\rt-thread\src\components.c</FilePath>
-            </File>
-          </Files>
-          <Files>
-            <File>
-              <FileName>cpu.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\rt-thread\src\cpu.c</FilePath>
-            </File>
-          </Files>
-          <Files>
-            <File>
-              <FileName>device.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\rt-thread\src\device.c</FilePath>
-            </File>
-          </Files>
-          <Files>
-            <File>
-              <FileName>idle.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\rt-thread\src\idle.c</FilePath>
-            </File>
-          </Files>
-          <Files>
-            <File>
-              <FileName>ipc.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\rt-thread\src\ipc.c</FilePath>
-            </File>
-          </Files>
-          <Files>
-            <File>
-              <FileName>irq.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\rt-thread\src\irq.c</FilePath>
-            </File>
-          </Files>
-          <Files>
-            <File>
-              <FileName>kservice.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\rt-thread\src\kservice.c</FilePath>
-            </File>
-          </Files>
-          <Files>
-            <File>
-              <FileName>memheap.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\rt-thread\src\memheap.c</FilePath>
-            </File>
-          </Files>
-          <Files>
-            <File>
-              <FileName>mempool.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\rt-thread\src\mempool.c</FilePath>
-            </File>
-          </Files>
-          <Files>
-            <File>
-              <FileName>object.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\rt-thread\src\object.c</FilePath>
-            </File>
-          </Files>
-          <Files>
-            <File>
-              <FileName>scheduler.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\rt-thread\src\scheduler.c</FilePath>
-            </File>
-          </Files>
-          <Files>
-            <File>
-              <FileName>signal.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\rt-thread\src\signal.c</FilePath>
-            </File>
-          </Files>
-          <Files>
-            <File>
-              <FileName>thread.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\rt-thread\src\thread.c</FilePath>
-            </File>
-          </Files>
-          <Files>
-            <File>
-              <FileName>timer.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\rt-thread\src\timer.c</FilePath>
-            </File>
-          </Files>
-        </Group>
-        <Group>
-          <GroupName>CORTEX-M4</GroupName>
-          <Files>
-            <File>
-              <FileName>cpuport.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\rt-thread\libcpu\arm\cortex-m4\cpuport.c</FilePath>
-            </File>
-          </Files>
-          <Files>
-            <File>
-              <FileName>context_rvds.S</FileName>
-              <FileType>2</FileType>
-              <FilePath>..\..\rt-thread\libcpu\arm\cortex-m4\context_rvds.S</FilePath>
-            </File>
-          </Files>
+          <GroupName>cpu</GroupName>
           <Files>
             <File>
               <FileName>backtrace.c</FileName>
@@ -1721,6 +1709,20 @@
               <FileName>showmem.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\rt-thread\libcpu\arm\common\showmem.c</FilePath>
+            </File>
+          </Files>
+          <Files>
+            <File>
+              <FileName>cpuport.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\rt-thread\libcpu\arm\cortex-m4\cpuport.c</FilePath>
+            </File>
+          </Files>
+          <Files>
+            <File>
+              <FileName>context_rvds.S</FileName>
+              <FileType>2</FileType>
+              <FilePath>..\..\rt-thread\libcpu\arm\cortex-m4\context_rvds.S</FilePath>
             </File>
           </Files>
         </Group>
@@ -2331,16 +2333,33 @@
               <FilePath>..\..\rt-thread\components\net\lwip-2.0.2\src\core\ipv4\ip4_frag.c</FilePath>
             </File>
           </Files>
+          <Files>
+            <File>
+              <FileName>ping.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\rt-thread\components\net\lwip-2.0.2\src\apps\ping\ping.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>netdev</GroupName>
+          <Files>
+            <File>
+              <FileName>netdev.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\rt-thread\components\net\netdev\src\netdev.c</FilePath>
+            </File>
+          </Files>
+          <Files>
+            <File>
+              <FileName>netdev_ipaddr.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\rt-thread\components\net\netdev\src\netdev_ipaddr.c</FilePath>
+            </File>
+          </Files>
         </Group>
         <Group>
           <GroupName>SAL</GroupName>
-          <Files>
-            <File>
-              <FileName>sal_ipaddr.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\rt-thread\components\net\sal_socket\src\sal_ipaddr.c</FilePath>
-            </File>
-          </Files>
           <Files>
             <File>
               <FileName>sal_socket.c</FileName>
@@ -2364,6 +2383,13 @@
           </Files>
           <Files>
             <File>
+              <FileName>proto_mbedtls.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\rt-thread\components\net\sal_socket\impl\proto_mbedtls.c</FilePath>
+            </File>
+          </Files>
+          <Files>
+            <File>
               <FileName>net_sockets.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\rt-thread\components\net\sal_socket\socket\net_sockets.c</FilePath>
@@ -2374,65 +2400,6 @@
               <FileName>dfs_net.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\rt-thread\components\net\sal_socket\dfs_net\dfs_net.c</FilePath>
-            </File>
-          </Files>
-        </Group>
-        <Group>
-          <GroupName>Drivers</GroupName>
-          <Files>
-            <File>
-              <FileName>board.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\drivers\board.c</FilePath>
-            </File>
-          </Files>
-          <Files>
-            <File>
-              <FileName>drv_clock.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\drivers\drv_clock.c</FilePath>
-            </File>
-          </Files>
-          <Files>
-            <File>
-              <FileName>drv_gpio.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\drivers\drv_gpio.c</FilePath>
-            </File>
-          </Files>
-          <Files>
-            <File>
-              <FileName>drv_qspi_flash.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\drivers\drv_qspi_flash.c</FilePath>
-            </File>
-          </Files>
-          <Files>
-            <File>
-              <FileName>drv_usart.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\drivers\drv_usart.c</FilePath>
-            </File>
-          </Files>
-          <Files>
-            <File>
-              <FileName>drv_sdio_adapter.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\drivers\drv_sdio_adapter.c</FilePath>
-            </File>
-          </Files>
-          <Files>
-            <File>
-              <FileName>drv_qspi.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\drivers\drv_qspi.c</FilePath>
-            </File>
-          </Files>
-          <Files>
-            <File>
-              <FileName>drv_wlan.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\drivers\drv_wlan.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -2565,13 +2532,71 @@
             </File>
           </Files>
         </Group>
-        <Group>
-          <GroupName>rt_ota</GroupName>
+        <Group>rt_ota<GroupName>rt_ota</GroupName>
           <Files>
             <File>
               <FileName>librt_ota_noalgo_0.1.2_stm32l4_keil.lib</FileName>
               <FileType>4</FileType>
               <FilePath>..\..\libraries\rt_ota\libs\librt_ota_noalgo_0.1.2_stm32l4_keil.lib</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>Drivers</GroupName>
+          <Files>
+            <File>
+              <FileName>board.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\drivers\board.c</FilePath>
+            </File>
+          </Files>
+          <Files>
+            <File>
+              <FileName>drv_clock.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\drivers\drv_clock.c</FilePath>
+            </File>
+          </Files>
+          <Files>
+            <File>
+              <FileName>drv_gpio.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\drivers\drv_gpio.c</FilePath>
+            </File>
+          </Files>
+          <Files>
+            <File>
+              <FileName>drv_qspi_flash.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\drivers\drv_qspi_flash.c</FilePath>
+            </File>
+          </Files>
+          <Files>
+            <File>
+              <FileName>drv_usart.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\drivers\drv_usart.c</FilePath>
+            </File>
+          </Files>
+          <Files>
+            <File>
+              <FileName>drv_sdio_adapter.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\drivers\drv_sdio_adapter.c</FilePath>
+            </File>
+          </Files>
+          <Files>
+            <File>
+              <FileName>drv_qspi.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\drivers\drv_qspi.c</FilePath>
+            </File>
+          </Files>
+          <Files>
+            <File>
+              <FileName>drv_wlan.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\drivers\drv_wlan.c</FilePath>
             </File>
           </Files>
         </Group>

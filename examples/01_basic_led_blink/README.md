@@ -12,7 +12,7 @@
 
 ![LED 电路原理图](../../docs/figures/01_basic_led_blink/led_pcb_1.png)
 
-如上图所示，RBG-LED 属于共阳 LED ，**阴极** 分别与单片机的 38，39，40 号引脚连接，其中红色 LED 对应 **38** 号引脚。单片机引脚输出低电平即可点亮 LED ，输出高电平则会熄灭 LED。
+如上图所示，RBG-LED 属于共阳 LED ，**阴极** 分别与单片机的引脚连接，其中红色 LED 对应 **PE7** 引脚。单片机引脚输出低电平即可点亮 LED ，输出高电平则会熄灭 LED。
 
 LED 在开发板中的位置如下图所示：
 
@@ -20,10 +20,10 @@ LED 在开发板中的位置如下图所示：
 
 ## 软件说明
 
-闪灯的源代码位于 `/examples/01_basic_led_blink/applications/main.c` 中。首先定义了一个宏 `LED_PIN` ，代表闪灯的 LED 引脚编号，然后与 `PIN_LED_R`（38）对应
+闪灯的源代码位于 `/examples/01_basic_led_blink/applications/main.c` 中。首先定义了一个宏 `LED_PIN` ，代表闪灯的 LED 引脚编号，然后与 `PIN_LED_R`（**PE7**）对应：
 
 ```c
-/* using RED LED in RGB */
+/* 配置 LED 灯引脚 */
 #define LED_PIN              PIN_LED_R
 ```
 
@@ -33,19 +33,20 @@ LED 在开发板中的位置如下图所示：
 int main(void)
 {
     unsigned int count = 1;
-    /* set LED pin mode to output */
+
+    /* 设置 LED 引脚为输出模式 */
     rt_pin_mode(LED_PIN, PIN_MODE_OUTPUT);
 
     while (count > 0)
     {
-        /* led on */
+        /* LED 灯亮 */
         rt_pin_write(LED_PIN, PIN_LOW);
-        rt_kprintf("led on, count: %d\n", count);
+        LOG_D("led on, count: %d", count);
         rt_thread_mdelay(500);
 
-        /* led off */
+        /* LED 灯灭 */
         rt_pin_write(LED_PIN, PIN_HIGH);
-        rt_kprintf("led off\n");
+        LOG_D("led off");
         rt_thread_mdelay(500);
 
         count++;
@@ -73,16 +74,21 @@ int main(void)
 此时也可以在 PC 端使用终端工具打开开发板的 ST-Link 提供的虚拟串口，设置 115200 8 1 N 。开发板的运行日志信息即可实时输出出来。
 
 ```shell
-led on, count: 1
-led off
-led on, count: 2
-led off
-led on, count: 3
-led off
-led on, count: 4
-led off
-led on, count: 5
-led off
+[D/main] led on, count: 1
+[D/main] led off
+[D/main] led on, count: 2
+[D/main] led off
+[D/main] led on, count: 3
+[D/main] led off
+[D/main] led on, count: 4
+[D/main] led off
+[D/main] led on, count: 5
+[D/main] led off
+[D/main] led on, count: 6
+[D/main] led off
+[D/main] led on, count: 7
+[D/main] led off
+[D/main] led on, count: 8
 ```
 
 ## 注意事项

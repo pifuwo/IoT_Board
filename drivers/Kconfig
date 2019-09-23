@@ -135,12 +135,33 @@ menu "Hardware Drivers Config"
             select RT_USING_HOOK
             default n
 
-        config BSP_USING_INFRARED
-            bool "Enable INFRARED"
+        config BSP_USING_ADC1_CH13
+            bool "Enable ADC1_CH13"
+            select RT_USING_ADC
             default n
-            
+
+        config BSP_USING_PWM3_CH3
+            bool "Enable PWM3_CH3"
+            select RT_USING_PWM
+            default n
+
+        config BSP_USING_TIM15
+            bool "Enable HWTIMER_15"
+            select RT_USING_HWTIMER
+            default n
+
+        config BSP_USING_TIM16
+            bool "Enable HWTIMER_16"
+            select RT_USING_HWTIMER
+            default n
+
         config BSP_USING_USBD
             bool "Enable USBD"
+            default n
+
+        config BSP_USING_WDT
+            select RT_USING_WDT
+            bool "Enable Watch Dog"
             default n
     endmenu
 

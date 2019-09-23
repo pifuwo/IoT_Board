@@ -13,8 +13,11 @@
 #define RT_TICK_PER_SECOND 1000
 #define RT_USING_OVERFLOW_CHECK
 #define RT_USING_HOOK
+#define RT_USING_IDLE_HOOK
 #define RT_IDEL_HOOK_LIST_SIZE 4
 #define IDLE_THREAD_STACK_SIZE 256
+#define RT_DEBUG
+#define RT_DEBUG_COLOR
 
 /* Inter-Thread communication */
 
@@ -27,6 +30,7 @@
 /* Memory Management */
 
 #define RT_USING_MEMPOOL
+#define RT_USING_MEMHEAP
 #define RT_USING_SMALL_MEM
 #define RT_USING_HEAP
 
@@ -36,6 +40,7 @@
 #define RT_USING_CONSOLE
 #define RT_CONSOLEBUF_SIZE 256
 #define RT_CONSOLE_DEVICE_NAME "uart1"
+#define RT_VER_NUM 0x40001
 
 /* RT-Thread Components */
 
@@ -88,7 +93,12 @@
 
 #define RT_USING_DEVICE_IPC
 #define RT_PIPE_BUFSZ 512
+#define RT_USING_SYSTEM_WORKQUEUE
+#define RT_SYSTEM_WORKQUEUE_STACKSIZE 2048
+#define RT_SYSTEM_WORKQUEUE_PRIORITY 23
 #define RT_USING_SERIAL
+#define RT_SERIAL_USING_DMA
+#define RT_SERIAL_RB_BUFSZ 64
 #define RT_USING_PIN
 #define RT_USING_RTC
 #define RT_USING_SOFT_RTC
@@ -139,7 +149,14 @@
 
 #define SAL_USING_LWIP
 #define SAL_USING_POSIX
-#define SAL_PROTO_FAMILIES_NUM 4
+
+/* Network interface device */
+
+#define RT_USING_NETDEV
+#define NETDEV_USING_IFCONFIG
+#define NETDEV_USING_PING
+#define NETDEV_USING_NETSTAT
+#define NETDEV_USING_AUTO_DEFAULT
 
 /* light weight TCP/IP stack */
 
@@ -177,11 +194,13 @@
 #define RT_LWIP_ETHTHREAD_STACKSIZE 1024
 #define RT_LWIP_ETHTHREAD_MBOX_SIZE 8
 #define LWIP_NETIF_STATUS_CALLBACK 1
+#define LWIP_NETIF_LINK_CALLBACK 1
 #define SO_REUSE 1
 #define LWIP_SO_RCVTIMEO 1
 #define LWIP_SO_SNDTIMEO 1
 #define LWIP_SO_RCVBUF 1
 #define LWIP_NETIF_LOOPBACK 0
+#define RT_LWIP_USING_PING
 
 /* Modbus master and slave stack */
 
@@ -208,7 +227,6 @@
 /* Wiced WiFi */
 
 #define PKG_USING_NETUTILS
-#define PKG_NETUTILS_PING
 #define PKG_NETUTILS_TFTP
 #define NETUTILS_TFTP_PORT 69
 #define PKG_NETUTILS_IPERF
@@ -216,6 +234,8 @@
 #define PKG_NETUTILS_NTP
 #define NETUTILS_NTP_TIMEZONE 8
 #define NETUTILS_NTP_HOSTNAME "cn.ntp.org.cn"
+#define NETUTILS_NTP_HOSTNAME2 "edu.ntp.org.cn"
+#define NETUTILS_NTP_HOSTNAME3 "hk.ntp.org.cn"
 #define PKG_NETUTILS_TELNET
 #define PKG_USING_NETUTILS_V100
 
@@ -242,6 +262,7 @@
 #define PKG_EASYFLASH_ERASE_GRAN 4096
 #define PKG_EASYFLASH_START_ADDR 0
 #define PKG_USING_EASYFLASH_V321
+#define PKG_EASYFLASH_VER_NUM 0x30201
 
 /* system packages */
 
@@ -249,6 +270,7 @@
 #define FAL_DEBUG 0
 #define FAL_PART_HAS_TABLE_CFG
 #define PKG_USING_FAL_V00200
+#define PKG_FAL_VER_NUM 0x00200
 
 /* peripheral libraries and drivers */
 
@@ -256,26 +278,18 @@
 #define SDIO_BUFF_SIZE 4096
 #define SDIO_MAX_FREQ 24000000
 #define SDIO_ALIGN_LEN 32
-#define PKG_USING_STM32_SDIO_V100
+#define PKG_USING_STM32_SDIO_V102
 
 /* miscellaneous packages */
 
 
-/* sample package */
-
 /* samples: kernel and components samples */
-
-
-/* example package: hello */
 
 
 /* Privated Packages of RealThread */
 
 
 /* Network Utilities */
-
-
-/* Test Packages of RealThread */
 
 
 /* Hardware Drivers Config */
@@ -292,6 +306,7 @@
 /* On-chip Peripheral Drivers */
 
 #define BSP_USING_UART1
+#define BSP_UART_USING_DMA_RX
 #define BSP_USING_QSPI
 #define BSP_USING_SDIO
 #define BSP_USING_GPIO

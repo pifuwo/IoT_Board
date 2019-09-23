@@ -13,8 +13,11 @@
 #define RT_TICK_PER_SECOND 1000
 #define RT_USING_OVERFLOW_CHECK
 #define RT_USING_HOOK
+#define RT_USING_IDLE_HOOK
 #define RT_IDEL_HOOK_LIST_SIZE 4
 #define IDLE_THREAD_STACK_SIZE 256
+#define RT_DEBUG
+#define RT_DEBUG_COLOR
 
 /* Inter-Thread communication */
 
@@ -27,6 +30,7 @@
 /* Memory Management */
 
 #define RT_USING_MEMPOOL
+#define RT_USING_MEMHEAP
 #define RT_USING_SMALL_MEM
 #define RT_USING_HEAP
 
@@ -36,6 +40,7 @@
 #define RT_USING_CONSOLE
 #define RT_CONSOLEBUF_SIZE 256
 #define RT_CONSOLE_DEVICE_NAME "uart1"
+#define RT_VER_NUM 0x40001
 
 /* RT-Thread Components */
 
@@ -70,7 +75,12 @@
 
 #define RT_USING_DEVICE_IPC
 #define RT_PIPE_BUFSZ 512
+#define RT_USING_SYSTEM_WORKQUEUE
+#define RT_SYSTEM_WORKQUEUE_STACKSIZE 2048
+#define RT_SYSTEM_WORKQUEUE_PRIORITY 23
 #define RT_USING_SERIAL
+#define RT_SERIAL_USING_DMA
+#define RT_SERIAL_RB_BUFSZ 64
 #define RT_USING_PIN
 
 /* Using WiFi */
@@ -93,7 +103,14 @@
 
 #define SAL_USING_AT
 #define SAL_SOCKETS_NUM 16
-#define SAL_PROTO_FAMILIES_NUM 4
+
+/* Network interface device */
+
+#define RT_USING_NETDEV
+#define NETDEV_USING_IFCONFIG
+#define NETDEV_USING_PING
+#define NETDEV_USING_NETSTAT
+#define NETDEV_USING_AUTO_DEFAULT
 
 /* light weight TCP/IP stack */
 
@@ -108,6 +125,7 @@
 #define AT_CLIENT_NUM_MAX 1
 #define AT_USING_SOCKET
 #define AT_USING_CLI
+#define AT_CMD_MAX_LEN 128
 #define AT_SW_VERSION_NUM 0x10200
 
 /* VBUS(Virtual Software BUS) */
@@ -135,8 +153,8 @@
 #define AT_DEVICE_RECV_BUFF_LEN 512
 #define AT_DEVICE_WIFI_SSID "rtthread"
 #define AT_DEVICE_WIFI_PASSWORD "12345678"
-#define PKG_USING_AT_DEVICE_V140
-#define PKG_AT_DEVICE_VER_NUM 0x10400
+#define PKG_USING_AT_DEVICE_V160
+#define PKG_AT_DEVICE_VER_NUM 0x10600
 
 /* IoT Cloud */
 
@@ -162,12 +180,7 @@
 /* miscellaneous packages */
 
 
-/* sample package */
-
 /* samples: kernel and components samples */
-
-
-/* example package: hello */
 
 
 /* Privated Packages of RealThread */
@@ -189,6 +202,7 @@
 
 #define BSP_USING_UART1
 #define BSP_USING_UART2
+#define BSP_UART_USING_DMA_RX
 #define BSP_USING_GPIO
 
 /* External Libraries */

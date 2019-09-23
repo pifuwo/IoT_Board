@@ -352,7 +352,6 @@
           <state>$PROJ_DIR$\packages\icm20608-v1.0.0</state>
           <state>$PROJ_DIR$\modules\player</state>
           <state>$PROJ_DIR$\..\..\rt-thread\components\drivers\audio</state>
-          <state>$PROJ_DIR$\..\..\rt-thread\components\utilities\ulog</state>
           <state>$PROJ_DIR$\..\..\rt-thread\components\net\sal_socket\include\dfs_net</state>
           <state>$PROJ_DIR$\..\..\rt-thread\components\net\lwip-2.0.2\src</state>
           <state>$PROJ_DIR$\..\..\rt-thread\components\libc\compilers\dlib</state>
@@ -366,6 +365,7 @@
           <state>$PROJ_DIR$\packages\pahomqtt-v1.0.0\MQTTPacket\src</state>
           <state>$PROJ_DIR$\..\..\rt-thread\include</state>
           <state>$PROJ_DIR$\ports\cloudsdk</state>
+          <state>$PROJ_DIR$\..\..\rt-thread\components\drivers\sensors</state>
           <state>$PROJ_DIR$\..\..\libraries\wifi</state>
           <state>$PROJ_DIR$\.</state>
           <state>$PROJ_DIR$\modules\iotb_workqeue</state>
@@ -387,18 +387,20 @@
           <state>$PROJ_DIR$\..\..\rt-thread\components\net\sal_socket\impl</state>
           <state>$PROJ_DIR$\applications</state>
           <state>$PROJ_DIR$\packages\cJSON-v1.0.2</state>
-          <state>$PROJ_DIR$\packages\stm32_sdio-v1.0.0</state>
           <state>$PROJ_DIR$\packages\webclient-v2.0.1\inc</state>
+          <state>$PROJ_DIR$\packages\stm32_sdio-v1.0.2</state>
           <state>$PROJ_DIR$\..\..\rt-thread\components\finsh</state>
           <state>$PROJ_DIR$\..\..\rt-thread\components\drivers\spi</state>
           <state>$PROJ_DIR$\modules\lcd</state>
           <state>$PROJ_DIR$\..\..\rt-thread\components\drivers\wlan</state>
           <state>$PROJ_DIR$\..\..\rt-thread\components\net\sal_socket\include\socket\sys_socket</state>
           <state>$PROJ_DIR$\..\..\libraries\rt_ota\inc</state>
+          <state>$PROJ_DIR$\packages\infrared-v0.1.0\inc</state>
           <state>$PROJ_DIR$\modules\sensors</state>
           <state>$PROJ_DIR$\..\..\rt-thread\libcpu\arm\cortex-m4</state>
           <state>$PROJ_DIR$\..\..\rt-thread\components\net\lwip-2.0.2\src\arch\include</state>
           <state>$PROJ_DIR$\..\..\rt-thread\components\utilities\ymodem</state>
+          <state>$PROJ_DIR$\..\..\rt-thread\components\net\netdev\include</state>
           <state>$PROJ_DIR$\packages\ap3216c-v1.0.0</state>
           <state>$PROJ_DIR$\..\..\rt-thread\libcpu\arm\common</state>
           <state>$PROJ_DIR$\modules\ymodem</state>
@@ -871,7 +873,7 @@
           <name>IlinkAdditionalLibs</name>
           <state />
           <state>$PROJ_DIR$\..\..\libraries\cloudsdk\libs\libcloudsdk_2.0.0_armcm4_iar.a</state>
-          <state>$PROJ_DIR$\..\..\libraries\wifi\libwifi_6181_0.2.4_armcm4_iar.a</state>
+          <state>$PROJ_DIR$\..\..\libraries\wifi\libwifi_6181_0.2.5_armcm4_iar.a</state>
           <state>$PROJ_DIR$\..\..\libraries\rt_ota\libs\librt_ota_noalgo_0.1.2_stm32l4_iar.a</state>
           <state>$PROJ_DIR$\..\..\libraries\smartconfig\libs\libsmartconfig_1.0.0_armcm4_iar.a</state>
         </option>
@@ -1437,7 +1439,6 @@
           <state>$PROJ_DIR$\packages\icm20608-v1.0.0</state>
           <state>$PROJ_DIR$\modules\player</state>
           <state>$PROJ_DIR$\..\..\rt-thread\components\drivers\audio</state>
-          <state>$PROJ_DIR$\..\..\rt-thread\components\utilities\ulog</state>
           <state>$PROJ_DIR$\..\..\rt-thread\components\net\sal_socket\include\dfs_net</state>
           <state>$PROJ_DIR$\..\..\rt-thread\components\net\lwip-2.0.2\src</state>
           <state>$PROJ_DIR$\..\..\rt-thread\components\libc\compilers\dlib</state>
@@ -1451,6 +1452,7 @@
           <state>$PROJ_DIR$\packages\pahomqtt-v1.0.0\MQTTPacket\src</state>
           <state>$PROJ_DIR$\..\..\rt-thread\include</state>
           <state>$PROJ_DIR$\ports\cloudsdk</state>
+          <state>$PROJ_DIR$\..\..\rt-thread\components\drivers\sensors</state>
           <state>$PROJ_DIR$\..\..\libraries\wifi</state>
           <state>$PROJ_DIR$\.</state>
           <state>$PROJ_DIR$\modules\iotb_workqeue</state>
@@ -1472,18 +1474,20 @@
           <state>$PROJ_DIR$\..\..\rt-thread\components\net\sal_socket\impl</state>
           <state>$PROJ_DIR$\applications</state>
           <state>$PROJ_DIR$\packages\cJSON-v1.0.2</state>
-          <state>$PROJ_DIR$\packages\stm32_sdio-v1.0.0</state>
           <state>$PROJ_DIR$\packages\webclient-v2.0.1\inc</state>
+          <state>$PROJ_DIR$\packages\stm32_sdio-v1.0.2</state>
           <state>$PROJ_DIR$\..\..\rt-thread\components\finsh</state>
           <state>$PROJ_DIR$\..\..\rt-thread\components\drivers\spi</state>
           <state>$PROJ_DIR$\modules\lcd</state>
           <state>$PROJ_DIR$\..\..\rt-thread\components\drivers\wlan</state>
           <state>$PROJ_DIR$\..\..\rt-thread\components\net\sal_socket\include\socket\sys_socket</state>
           <state>$PROJ_DIR$\..\..\libraries\rt_ota\inc</state>
+          <state>$PROJ_DIR$\packages\infrared-v0.1.0\inc</state>
           <state>$PROJ_DIR$\modules\sensors</state>
           <state>$PROJ_DIR$\..\..\rt-thread\libcpu\arm\cortex-m4</state>
           <state>$PROJ_DIR$\..\..\rt-thread\components\net\lwip-2.0.2\src\arch\include</state>
           <state>$PROJ_DIR$\..\..\rt-thread\components\utilities\ymodem</state>
+          <state>$PROJ_DIR$\..\..\rt-thread\components\net\netdev\include</state>
           <state>$PROJ_DIR$\packages\ap3216c-v1.0.0</state>
           <state>$PROJ_DIR$\..\..\rt-thread\libcpu\arm\common</state>
           <state>$PROJ_DIR$\modules\ymodem</state>
@@ -1956,7 +1960,7 @@
           <name>IlinkAdditionalLibs</name>
           <state />
           <state>$PROJ_DIR$\..\..\libraries\cloudsdk\libs\libcloudsdk_2.0.0_armcm4_iar.a</state>
-          <state>$PROJ_DIR$\..\..\libraries\wifi\libwifi_6181_0.2.4_armcm4_iar.a</state>
+          <state>$PROJ_DIR$\..\..\libraries\wifi\libwifi_6181_0.2.5_armcm4_iar.a</state>
           <state>$PROJ_DIR$\..\..\libraries\rt_ota\libs\librt_ota_noalgo_0.1.2_stm32l4_iar.a</state>
           <state>$PROJ_DIR$\..\..\libraries\smartconfig\libs\libsmartconfig_1.0.0_armcm4_iar.a</state>
         </option>
@@ -2171,6 +2175,54 @@
     </settings>
   </configuration>
   <group>
+    <name>Kernel</name>
+    <file>
+      <name>$PROJ_DIR$\..\..\rt-thread\src\clock.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\rt-thread\src\components.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\rt-thread\src\cpu.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\rt-thread\src\device.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\rt-thread\src\idle.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\rt-thread\src\ipc.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\rt-thread\src\irq.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\rt-thread\src\kservice.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\rt-thread\src\memheap.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\rt-thread\src\mempool.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\rt-thread\src\object.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\rt-thread\src\scheduler.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\rt-thread\src\signal.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\rt-thread\src\thread.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\rt-thread\src\timer.c</name>
+    </file>
+  </group>
+  <group>
     <name>Applications</name>
     <file>
       <name>$PROJ_DIR$\applications\main.c</name>
@@ -2309,6 +2361,18 @@
     </file>
   </group>
   <group>
+    <name>Infrared_frame</name>
+    <file>
+      <name>$PROJ_DIR$\packages\infrared-v0.1.0\src\infrared.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\packages\infrared-v0.1.0\src\drv_infrared.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\packages\infrared-v0.1.0\src\nec_decoder.c</name>
+    </file>
+  </group>
+  <group>
     <name>NetUtils</name>
     <file>
       <name>$PROJ_DIR$\packages\netutils-v1.0.0\ntp\ntp.c</name>
@@ -2359,7 +2423,7 @@
   <group>
     <name>stm32_sdio</name>
     <file>
-      <name>$PROJ_DIR$\packages\stm32_sdio-v1.0.0\stm32_sdio.c</name>
+      <name>$PROJ_DIR$\packages\stm32_sdio-v1.0.2\stm32_sdio.c</name>
     </file>
   </group>
   <group>
@@ -2402,61 +2466,7 @@
     </file>
   </group>
   <group>
-    <name>Kernel</name>
-    <file>
-      <name>$PROJ_DIR$\..\..\rt-thread\src\clock.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\rt-thread\src\components.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\rt-thread\src\cpu.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\rt-thread\src\device.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\rt-thread\src\idle.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\rt-thread\src\ipc.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\rt-thread\src\irq.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\rt-thread\src\kservice.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\rt-thread\src\memheap.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\rt-thread\src\mempool.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\rt-thread\src\object.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\rt-thread\src\scheduler.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\rt-thread\src\signal.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\rt-thread\src\thread.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\rt-thread\src\timer.c</name>
-    </file>
-  </group>
-  <group>
-    <name>CORTEX-M4</name>
-    <file>
-      <name>$PROJ_DIR$\..\..\rt-thread\libcpu\arm\cortex-m4\cpuport.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\rt-thread\libcpu\arm\cortex-m4\context_iar.S</name>
-    </file>
+    <name>cpu</name>
     <file>
       <name>$PROJ_DIR$\..\..\rt-thread\libcpu\arm\common\backtrace.c</name>
     </file>
@@ -2465,6 +2475,12 @@
     </file>
     <file>
       <name>$PROJ_DIR$\..\..\rt-thread\libcpu\arm\common\showmem.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\rt-thread\libcpu\arm\cortex-m4\cpuport.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\rt-thread\libcpu\arm\cortex-m4\context_iar.S</name>
     </file>
   </group>
   <group>
@@ -2509,6 +2525,9 @@
       <name>$PROJ_DIR$\..\..\rt-thread\components\drivers\audio\audio_pipe.c</name>
     </file>
     <file>
+      <name>$PROJ_DIR$\..\..\rt-thread\components\drivers\hwtimer\hwtimer.c</name>
+    </file>
+    <file>
       <name>$PROJ_DIR$\..\..\rt-thread\components\drivers\i2c\i2c_core.c</name>
     </file>
     <file>
@@ -2519,6 +2538,9 @@
     </file>
     <file>
       <name>$PROJ_DIR$\..\..\rt-thread\components\drivers\misc\pin.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\rt-thread\components\drivers\misc\rt_drv_pwm.c</name>
     </file>
     <file>
       <name>$PROJ_DIR$\..\..\rt-thread\components\drivers\pm\pm.c</name>
@@ -2606,6 +2628,15 @@
     </file>
     <file>
       <name>$PROJ_DIR$\..\..\rt-thread\components\drivers\wlan\wlan_workqueue.c</name>
+    </file>
+  </group>
+  <group>
+    <name>Sensors</name>
+    <file>
+      <name>$PROJ_DIR$\..\..\rt-thread\components\drivers\sensors\sensor.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\rt-thread\components\drivers\sensors\sensor_cmd.c</name>
     </file>
   </group>
   <group>
@@ -2786,10 +2817,16 @@
     </file>
   </group>
   <group>
-    <name>SAL</name>
+    <name>netdev</name>
     <file>
-      <name>$PROJ_DIR$\..\..\rt-thread\components\net\sal_socket\src\sal_ipaddr.c</name>
+      <name>$PROJ_DIR$\..\..\rt-thread\components\net\netdev\src\netdev.c</name>
     </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\rt-thread\components\net\netdev\src\netdev_ipaddr.c</name>
+    </file>
+  </group>
+  <group>
+    <name>SAL</name>
     <file>
       <name>$PROJ_DIR$\..\..\rt-thread\components\net\sal_socket\src\sal_socket.c</name>
     </file>
@@ -2809,70 +2846,7 @@
   <group>
     <name>Utilities</name>
     <file>
-      <name>$PROJ_DIR$\..\..\rt-thread\components\utilities\ulog\ulog.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\rt-thread\components\utilities\ulog\backend\console_be.c</name>
-    </file>
-    <file>
       <name>$PROJ_DIR$\..\..\rt-thread\components\utilities\ymodem\ymodem.c</name>
-    </file>
-  </group>
-  <group>
-    <name>Drivers</name>
-    <file>
-      <name>$PROJ_DIR$\..\..\drivers\board.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\drivers\drv_clock.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\drivers\drv_gpio.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\drivers\drv_qspi_flash.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\drivers\drv_spi_tfcard.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\drivers\drv_lcd.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\drivers\drv_usart.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\drivers\drv_i2c.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\drivers\drv_spi.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\drivers\drv_sdio_adapter.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\drivers\drv_qspi.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\drivers\drv_wlan.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\drivers\drv_pm.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\drivers\drv_pmtimer.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\drivers\drv_wakeup.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\drivers\drv_infrared.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\drivers\audio\drv_es8388.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\drivers\audio\drv_sound.c</name>
     </file>
   </group>
   <group>
@@ -2949,5 +2923,65 @@
   </group>
   <group>
     <name>smartconfig</name>
+  </group>
+  <group>
+    <name>Drivers</name>
+    <file>
+      <name>$PROJ_DIR$\..\..\drivers\board.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\drivers\drv_clock.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\drivers\drv_gpio.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\drivers\drv_qspi_flash.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\drivers\drv_spi_tfcard.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\drivers\drv_lcd.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\drivers\drv_usart.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\drivers\drv_i2c.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\drivers\drv_spi.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\drivers\drv_sdio_adapter.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\drivers\drv_qspi.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\drivers\drv_wlan.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\drivers\drv_pm.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\drivers\drv_pmtimer.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\drivers\drv_wakeup.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\drivers\drv_pwm.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\drivers\drv_hwtimer.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\drivers\audio\drv_es8388.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\drivers\audio\drv_sound.c</name>
+    </file>
   </group>
 </project>

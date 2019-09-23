@@ -35,15 +35,15 @@ PM 例程的源代码位于 `/examples/12_component_pm/applications/main.c`中�
 ```C
 int main(void)
 {
-    /* wakup event and callback init */
+ /* 唤醒回调函数初始化 */
     wakeup_init();
 
-    /* pm mode init */
+    /* 电源管理初始化 */
     pm_mode_init();
 
     while (1)
     {
-        /* wait for wakeup event */
+        /* 等待唤醒事件 */
         if (rt_event_recv(wakeup_event,
                           WAKEUP_EVENT_BUTTON,
                           RT_EVENT_FLAG_AND | RT_EVENT_FLAG_CLEAR,
@@ -69,25 +69,21 @@ static void wakeup_init(void)
 }
 ```
 
-`PM_SLEEP_MODE_TIMER` 是 STM32L475 的 STOP2 模式，并在进入之前打开了 LPTIM1。我们希望停留在 `PM_SLEEP_MODE_TIMER` 模式，我们首先需要调用一次 rt_pm_request() 来请求该模式。
-
-由于在一开始，`PM_SLEEP_MODE_SLEEP` 和 `PM_RUN_MODE_NORMAL` 模式都是 PM 组件启动的时候已经被默认请求了一次。为了不停留在这两个模式，我们需要调用 rt_pm_release() 释放它们。释放之后最高的模式是 `PM_SLEEP_MODE_TIMER` 模式，所以将会在系统空闲的时候进入该模式：
+`PM_SLEEP_MODE_DEEP` 是 STM32L475 的 STOP2 模式，并在进入之前打开了 LPTIM1。我们希望停留在 `PM_SLEEP_MODE_DEEP` 模式，我们首先需要调用一次 rt_pm_request() 来请求该模式。
 
 ```C
 static void pm_mode_init(void)
 {
-    rt_pm_request(PM_SLEEP_MODE_TIMER);
-    rt_pm_release(PM_SLEEP_MODE_SLEEP);
-    rt_pm_release(PM_RUN_MODE_NORMAL);
+    rt_pm_request(PM_SLEEP_MODE_DEEP);
 }
 ```
 
-`led_app()` 里我们希望点亮 LED 灯，并延时足够的时间以便我们观察到现象。在延时的时候，CPU 可能处于空闲状态，如果没有任何运行模式被请求，将会进入休眠。我们请求了`PM_RUN_MODE_NORMAL` 模式，并在完成 LED 闪烁完成之后释放它，这样就可以让确保请求和释放中间的代码运行在 `PM_RUN_MODE_NORMAL` 模式。`_pin_as_analog()` 函数是把 LED 对应的引脚设置为模拟 IO，这样可以使得 IO 的功耗达到最低：
+`led_app()` 里我们希望点亮 LED 灯，并延时足够的时间以便我们观察到现象。在延时的时候，CPU 可能处于空闲状态，如果没有任何运行模式被请求，将会进入休眠。我们请求了`PM_SLEEP_MODE_NONE` 模式，即该模式下 CPU 不进行休眠，并在完成 LED 闪烁完成之后释放它，这样就可以让确保请求和释放中间的代码运行在 `PM_SLEEP_MODE_NONE` 模式。`_pin_as_analog()` 函数是把 LED 对应的引脚设置为模拟 IO，这样可以使得 IO 的功耗达到最低：
 
 ```C
 static void led_app(void)
 {
-    rt_pm_request(PM_RUN_MODE_NORMAL);
+    rt_pm_request(PM_SLEEP_MODE_NONE);
 
     rt_pin_mode(PIN_LED_R, PIN_MODE_OUTPUT);
     rt_pin_write(PIN_LED_R, 0);
@@ -95,11 +91,9 @@ static void led_app(void)
     rt_pin_write(PIN_LED_R, 1);
     _pin_as_analog();
 
-    rt_pm_release(PM_RUN_MODE_NORMAL);
+    rt_pm_release(PM_SLEEP_MODE_NONE);
 }
 ```
-
-
 
 ## 运行
 
